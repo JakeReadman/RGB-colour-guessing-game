@@ -50,7 +50,7 @@ const reset = () => {
 };
 
 const setupModeBtns = () => {
-  modeBtns.forEach((btn, idx) => {
+  modeBtns.forEach((btn) => {
     btn.addEventListener('click', function () {
       modeBtns[0].classList.remove('selected');
       modeBtns[1].classList.remove('selected');
@@ -64,8 +64,7 @@ const setupModeBtns = () => {
 };
 
 const colourELs = () => {
-  circles.forEach((circle, idx) => {
-    //add click listeners
+  circles.forEach((circle) => {
     circle.addEventListener('click', function () {
       let clickedColour = this.style.backgroundColor;
       if (clickedColour === pickedColour) {
