@@ -109,8 +109,10 @@ button:hover {
   }
 
   #message {
-    grid-area: message;
     background-color: #9c9c9c;
+    grid-area: message;
+    display: block;
+    width: 100%;
   }
   #easy {
     grid-area: easy;
