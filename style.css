@@ -96,6 +96,24 @@ button:hover {
 
   #stripe {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'reset reset'
+      'message message'
+      'easy hard';
+  }
+  #reset {
+    grid-area: reset;
+  }
+
+  #message {
+    grid-area: message;
+    background-color: #9c9c9c;
+  }
+  #easy {
+    grid-area: easy;
+  }
+
+  #hard {
+    grid-area: hard;
   }
 }
