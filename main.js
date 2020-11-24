@@ -68,7 +68,7 @@ const colourELs = () => {
     circle.addEventListener('click', function () {
       let clickedColour = this.style.backgroundColor;
       if (clickedColour === pickedColour) {
-        messageDisplay.textContent = 'correct';
+        messageDisplay.textContent = 'Correct!';
         changeColour(pickedColour);
         h1.style.backgroundColor = pickedColour;
         resetBtn.textContent = 'Play Again';
