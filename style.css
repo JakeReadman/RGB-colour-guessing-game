@@ -94,6 +94,9 @@ button:hover {
     font-size: 1.5rem;
   }
 
+  #stripe-container {
+    display: block;
+  }
   #stripe {
     display: grid;
     grid-template-areas:
